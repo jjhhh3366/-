@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial- scale=1.0">
+    <title>网约车/出租车</title>
+    <style>
+        .content-wrap{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px 20px;
+            text-align: left;
+        }
+        .route-list{
+            padding-left: 20px;
+            line-height: 1.8;
+            color: #333;
+        } 
+        
+         h2{font-size:18px;   
+            font-weight: bold;
+            margin-top: 24px; 
+            margin-bottom: 10px; 
+        }
+        .photo-box{
+            margin: 20px;
+        }
+        .photo-box img{
+            width: 100%;
+            display: block;
+            border-radius: 12px;
+            height: auto;
+        }
+        .photo-text{
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 8px
+        }
+         .ps-card{
+            display: block;
+            background-color:#eff8ed;
+            border-radius: 16px;
+            padding:16px;
+            text-decoration: none;
+            color:#333;
+            margin-bottom: 16px;
+        }
+        .turn-card{
+             
+            display: block;
+            background-color:#eff8ed;
+            border-radius: 16px;
+            padding:16px;
+            text-decoration: none;
+            color:#333;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+        .card-header{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-bottom: 12px;
+        }
+        .header-left{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-icon{
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        .card-desc{
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .item-arrow{
+            color: #ccc;
+            font-size: 16px;
+            font-family: monospace;
+        }
+         
+        .warning-card {
+            background-color: #fdf2f2;
+            border-radius: 16px;       
+            padding: 16px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .warning-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+        .warning-icon {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        .warning-title {
+            font-weight: bold;
+            font-size: 16px;
+            color: #c62828; 
+        }
+        .warning-content p {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        .warning-content p:last-child {
+            margin-bottom: 0;
+        }
+        </style>
+    </head>
+  
+        
+      <div class="content-wrap"> 
+            <div class="route-list">
+                 <div class="ps-card">
+                     <div class="card-header">
+                        <div class="header-left">
+                        <img src="images/hint.svg" style="width:20px;height: 20px;">Ps:济南西站的出租车和网约车的等候地点各异，请不要弄混以免浪费时间
+                        </div>
+                    </div>
+                </div>    
+
+                <h1>出租车</h1>
+                <p>1.找到出租车的专门停靠场地<br>
+                   2.排队上车后告知司机目的地 
+                </p>
+                
+                <h1>前往出租车停靠场地</h1>
+                <h2>前往出租车停靠入口</h2>
+                <p>出租车等候区入口在西出站口和东出站口的两侧都有（如下图）</p>
+                <div class="photo-box">
+                <img src="images/jinanxizhanchuzuchetingkaorukou.jpg" alt="停靠入口">
+                <p class="photo-text">济南西站出租车停靠入口</p>
+                </div>
+                <h2>排队等候上车</h2>
+                <p>新生报道时期人流量可能会大，出租车可能供不应求</p>
+                <div class="photo-box">
+                <img src="" alt="出租车停靠点">
+                <p class="photo-text">出租车停靠点</p>
+                </div>
+                <h2>目的地设定</h2>
+                <p>详情请看《出租车/网约车目的地选择指南》</p>
+                <a href="" class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left">
+                            <img src="images/hint.svg" style="width: 20px;height: 20px;">《出租车/网约车目的地选择指南》
+                        </div><img src="images/right-arrow.svg" style="width: 20px;height: 20px;">
+                    </div>
+                </a>          
+                <h1>网约车</h1>
+                <p>1.寻找东出站口<br>
+                   2.跟随橙色地标指引找到网约车候车区<br>
+                   3.耐心等候网约车抵达后登车入校
+                </p> 
+                <h1>寻找网约车后车场区</h1>
+                <h2>寻找东出站口</h2>
+                <p>济南西站只有东出站口有着楼梯（如下图所示）
+                </p>
+                <div class="photo-box">
+                    <img src="images/jinanxizhandongmen.jpg" alt="济南西站东出站口">
+                    <p class="photo-text">济南西站东出站口</p>
+                </div>
+                <h2>位于东出站口右侧有通往网约车南停靠区的下行扶梯</h2>
+                <div class="photo-box">
+                <img src="" alt="下行扶梯"><p class="photo-text">下行扶梯</p>
+                </div>
+
+                <h2>跟随橙色地表指示前往网约车候车区（如下以南候车区为例）</h2>
+                <div class="photo-box">
+                    <img src="images/jinanxizhannanhouchequrukou.jpg" alt="南候车区入口">
+                    <p class="photo-text">南候车区入口</p>
+                    <img src="images/chengsedibiao.jpg" alt="橙色地标">
+                    <p class="photo-text">橙色地标</p>
+                    <img src="images/nanhouchequ.jpg" alt="南候车区">
+                    <p class="photo-text">南候车区</p>
+                </div>
+                <p>候车区内置停车位实时屏幕，可通过查看车牌号实时知晓网约车是否抵达</p>
+
+                <h1>确定出租车等候地以及目的地</h1>
+                <h2>初始地</h2>
+                <p>如果是在南候车区等候，那么初始地应选择“济南西站-东广场-负一层-南候车区”<br>
+                   如果实在北候车区等待，那么初始地应选择“济南西站东广场北网约车上车点”</p>
+                <h2>目的地</h2>
+                <p>详情请看《出租车/网约车目的地选择指南》</p>
+                <a href="" class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left">
+                            <img src="images/hint.svg" style="width: 20px;height: 20px;">《出租车/网约车目的地选择指南》
+                        </div><img src="images/right-arrow.svg" style="width: 20px;height: 20px;">
+                        
+                    </div>
+                </a>     
+
+                <h1>前往网约车上车地</h1>
+                <p>候车地右侧有下行扶梯，下至负一层后跟着蓝色地标指引然后登车</p>
+                <div class="photo-box">
+                    <img src="images/houchequxiaxingfuti.jpg" alt="候车区下行扶梯">
+                    <p class="photo-text">候车区下行扶梯</p>
+                    <img src="images/lansedibiao.jpg" alt="蓝色地标">
+                    <p class="photo-text">蓝色地标</p>
+                    <img src="images/nanhouchequshangchedi.jpg" alt="南候车区上车点">
+                    <p class="photo-text">南候车区上车点</p>
+                </div>        
+                          
+                <div class="warning-card">
+                    <div class="warning-header">
+                    <img src="images/danger.svg" class="warning-icon" alt="警告" onerror="this.style.display='none'">
+                    <span class="warning-title">警惕非法揽客与强制拼车</span>
+                    </div>
+                    <div class="warning-content">
+                    <p>在出站口附近，常有司机非法揽客，请切勿理会。在非恶劣天气下，出租车队伍的移动速度很快，请耐心排队等候。</p>
+                    <p>请勿轻信揽客人员的说辞，乘坐此类车辆不仅可能遇到非法运营的“黑车”，还极有可能在拥挤的车内与素不相识的陌生人强制拼车，您的乘车体验和人身财产安全均无法得到保障。</p>
+                    </div>
+                </div>
+
+
+
+            </div>  
+        </div>
+
+        
+
+    </body>      
+</html>
