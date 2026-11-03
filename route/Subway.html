@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地铁转公交</title>
+    <style>
+        .content-wrap{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: left;
+        }
+        .route-list{
+            padding-left: 20px;
+            line-height: 1.8;
+            color: #333;
+        } 
+        
+         h2{font-size:18px;   
+            font-weight: bold;
+            margin-top: 24px; 
+            margin-bottom: 10px; 
+        }
+        .photo-box{
+            margin: 20px;
+        }
+        .photo-box img{
+            width: 100%;
+            display: block;
+            border-radius: 12px;
+            height: auto;
+        }
+        .photo-text{
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 8px
+        }
+         .turn-card{
+            display: block;
+            background-color:#eff8ed;
+            border-radius: 16px;
+            padding:16px;
+            text-decoration: none;
+            color:#333;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+        .card-header{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-bottom: 12px;
+        }
+        .header-left{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-icon{
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        .card-desc{
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .item-arrow{
+            color: #ccc;
+            font-size: 16px;
+            font-family: monospace;
+        }
+        .warn-text {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 12px 16px;   
+            border-radius: 8px; 
+            margin-bottom: 16px; 
+            line-height: 1.5;
+            font-size: 14px;  
+        }             
+        </style>
+    </head>
+    <body>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="content-wrap"> 
+            <div class="route-list">
+                
+                <h1>路线流程</h1>
+                <p>
+                 1.从济南站北出站口出站<br>
+                 2.出站后直走找到红色“地铁”地标<br>
+                 3.跟着地标走找到2号线地铁进站口<br>
+                 4.进站后乘坐方向为彭家庄的地铁<br>
+                 5.乘坐10站后在“鲍山”站下车（全程约30分钟）<br>
+                 6.从A口出站后往东走到马路中央的公交车停靠站乘坐B235路公交车，凤鸣路旅游路方向<br>
+                 7.乘坐4站后在“山东省体育训练中心”下车（全程约10分钟）<br>
+                 8.下车后往西走就看到山建的小东门了
+                
+                <h1>前往地铁站</h1>
+                <h2>识别出站口</h2>
+                <p>出站口如下图所示</p>
+                <div class="photo-box">
+                <img src="../images/jinanzhanbeichuzhankou.jpg" alt="北出站口">
+                <p class="photo-text">济南站北出站口</p>
+                </div>
+                <h2>寻找地铁站</h2>
+                <p>请沿红色地标前往地铁站（如下图）</p>
+                <div class="photo-box">
+                <img src="../images/jinanzhanditie,chuzuchedibiao.jpg" alt="红色地铁标识">
+                <p class="photo-text">地标</p>
+                </div>
+                <p>后沿黄色地标前往地铁2号线</p>
+                <div class="photo-box">
+                    <img src="../images/jinanzhanditiedibiao.jpg" alt="黄色地铁地标">
+                    <p class="photo-text">黄色地标</p>
+                </div>
+                <p>然后通过一条长通道到达地铁站</p>
+                <div class="photo-box">
+                    <img src="../images/jinanzhanditietongdao.jpg" alt="通道">
+                    <p class="photo-text">通道</p>
+
+                </div>
+                <h1>购票相关</h1>
+                <a href=""    class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left"><img src="../images/hint.svg" style="width: 20px; height:20px;">
+                            开通济南的支付宝快捷交通码（推荐）
+                        </div>    
+                    <div class="item-arrow"><img src="../images/right.svg"style="width: 20px;height:20px;"></div>
+                    </div>
+                    <div class="card-dsec">因为山建大部分设施都只支持支付宝，所以为了图省事可以直接用支付宝的扫码登车</div>
+                </a>
+                 <a href=""    class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left"><img src="../images/hint.svg" style="width: 20px; height:20px;">
+                            开通369出行快捷交通码
+                        </div>    
+                    <div class="item-arrow"><img src="../images/right.svg"style="width: 20px;height:20px;"></div>
+                    </div>
+                    <div class="card-dsec">属于济南的交通软件</div>
+                </a>
+                <p>通过安检后乘坐2号线，彭家庄方向，乘坐10站到达终点站“鲍山”站约30分钟</p>
+                <div class="photo-box">
+                    <img src="../images/jinanzhanditieluxian.jpg" alt="地铁站线">
+                    <p class="photo-text">地铁线路</p>
+                </div>
+                
+                <h1>地铁转公交</h1>
+                <p>凤鸣路飞跃大道”公交停靠站乘坐B235路公交站，凤鸣路旅游路方向，乘坐4站到达终点站“山东省体育训练中心”约10分钟
+                </p>
+                <p class="warn-text">注意：下车站一定要是“山东省体育训练中心”，本人实地考察的时候发现导航竟然会导向此站的前一站“凤鸣路世纪大道”会导致路途变长</p>
+                <div class="photo-box">
+                    <img src="../images/baoshanzhanAkou.jpg" alt="鲍山站A口出站">
+                    <p class="photo-text">鲍山站A口出站</p>
+                    <img src="../images/fengminglufeiyuedadaogongjiaozhan.jpg" alt="公交停靠站">
+                    <p class="photo-text">公交车停靠站</p>
+                    <img src="../images/fengminglufeiyuedadao.jpg" alt="凤鸣路飞跃大道">
+                    <p class="photo-text">凤鸣路飞跃大道</p>
+                    <img src="../images/fengminglufeiyuedadaoluxian.jpg" alt="路线">
+                    <p class="photo-text">路线图</p>
+                </div>
+                <h1>到达山东建筑大学小东门</h1>
+                <p>“山东省体育训练中心”下车后出站左手边就是山东建筑大学小东门，从这即可入校,入校指南详见请看《小东门入校指南》</p>
+                <div class="photo-box">
+                    <img src="../images/shandongjianzhudaxuexiaodongmen.jpg" alt="小东门">
+                    <p class="photo-text">山东建筑大学小东门</p>
+                </div>
+                            
+                <a href="" class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left">
+                        <img src="../images/hint.svg" style="width:20px;height:20px">《小东门入校指南》
+                        </div>
+                        <div class="item-arrow">
+                       <img src="../images/right.svg" style="width:20px;height:20px">
+                       </div>
+                    </div>
+                </a>                  
+
+
+            </div>  
+        </div>
+
+        
+
+    </body>      
+</html>
