@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公交转公交</title>
+    <style>
+        .content-wrap{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: left;
+        }
+        .route-list{
+            padding-left: 20px;
+            line-height: 1.8;
+            color: #333;
+        } 
+        
+         h2{font-size:18px;   
+            font-weight: bold;
+            margin-top: 24px; 
+            margin-bottom: 10px; 
+        }
+        .photo-box{
+            margin: 20px;
+        }
+        .photo-box img{
+            width: 100%;
+            display: block;
+            border-radius: 12px;
+            height: auto;
+        }
+        .photo-text{
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 8px
+        }
+         .turn-card{
+            display: block;
+            background-color:#eff8ed;
+            border-radius: 16px;
+            padding:16px;
+            text-decoration: none;
+            color:#333;
+            margin-bottom: 16px;
+            cursor: pointer;
+        }
+        .card-header{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-bottom: 12px;
+        }
+        .header-left{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .card-icon{
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+        }
+        .card-desc{
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .item-arrow{
+            color: #ccc;
+            font-size: 16px;
+            font-family: monospace;
+        }
+        .warn-text {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 12px 16px;   
+            border-radius: 8px; 
+            margin-bottom: 16px; 
+            line-height: 1.5;
+            font-size: 14px;  
+        }             
+        </style>
+    </head>
+    <body>
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="content-wrap"> 
+            <div class="route-list">
+                
+                <h1>路线流程</h1>
+                <p>
+                1.从济南站南出站口出站<br>
+                2.出站后通过扶梯上到地表<br>
+                3.然后位于左手边找到标志性广告牌从而找到公交车站<br>
+                4.乘坐公交车BRT5号线公交车，方向开往龙池路龙鼎大道<br>
+                5.乘坐19站后在“地铁浆水泉路”站下车（全程约53分钟）
+                6.然后站内换乘317路公交车，方向开往建大新校区<br>
+                7.乘坐6站后在“新校区西门”站下车（全程约34分钟）<br>
+                8.下车后往北走即可从山东建筑大学西门入校
+                <h1>前往公交站</h1>
+                <h2>识别出站口</h2>
+                <p>出站口如下图所示</p>
+                <div class="photo-box">
+                <img src="../images/jinanzhannanchuzhankou.jpg" alt="南出站口">
+                <p class="photo-text">济南站南出站口</p>
+                </div>
+                <h2>寻找公交站</h2>
+                <p>出站后通过右手的扶梯上行到达地表（如下图）</p>
+                <div class="photo-box">
+                <img src="../images/jinanzhannanfuti.jpg" alt="南出站口扶梯">
+                <p class="photo-text">扶梯</p>
+                </div>
+                <p>上行到地表后往右手方向前进寻找地标广告牌，广告牌所处位置车辆向南走向的人行道位置即是济南站公交停靠站（即下图广告牌右侧道路）</p>
+                <div class="photo-box">
+                    <img src="../images/jinanzhanguanggaopaidibiao.jpg" alt="广告牌地标">
+                    <p class="photo-text">广告牌地标</p>
+                </div>
+                <p>公交等候区的尽头就是BRT5号线公交车的停靠点，方向是龙池路龙鼎大道，等车上车即可</p>
+                <div class="photo-box">
+                    <img src="../images/jinanzhanBRT5.jpg" alt="BRT5公交站">
+                    <p class="photo-text">BRT5公交站</p>
+
+                </div>
+                <h1>购票相关</h1>
+                <a href=""    class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left"><img src="../images/hint.svg" style="width: 20px; height:20px;">
+                            开通济南的支付宝快捷交通码（推荐）
+                        </div>    
+                    <div class="item-arrow"><img src="../images/right.svg"style="width: 20px;height:20px;"></div>
+                    </div>
+                    <div class="card-dsec">因为山建大部分设施都只支持支付宝，所以为了图省事可以直接用支付宝的扫码登车</div>
+                </a>
+                 <a href=""    class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left"><img src="../images/hint.svg" style="width: 20px; height:20px;">
+                            开通369出行快捷交通码
+                        </div>    
+                    <div class="item-arrow"><img src="../images/right.svg"style="width: 20px;height:20px;"></div>
+                    </div>
+                    <div class="card-dsec">属于济南的交通软件</div>
+                </a>
+                <p>乘坐19站于“地铁浆水泉路”下车，同站乘坐317路公交车，方向是建大新校区</p>
+                <div class="photo-box">
+                    <img src="../images/" alt="地铁浆水泉路站线路图">
+                    <p class="photo-text">线路图</p>
+                </div>
+                
+                <p>乘坐6站后在“新校区西门”站下车，后往北走即可从山东建筑大学西门处入校，后续报道指南可查看《西门入校手册》
+                </p>
+                <div class="photo-box">
+                    <img src="../images/xuexiaoximen.jpg" alt="山东建筑大学西门">
+                    <p class="photo-text">山东建筑大学西门</p>
+                </div>
+                            
+                <a href="" class="turn-card">
+                    <div class="card-header">
+                        <div class="header-left">
+                        <img src="../images/hint.svg" style="width:20px;height:20px">《西门入校指南》
+                        </div>
+                        <div class="item-arrow">
+                       <img src="../images/right.svg" style="width:20px;height:20px">
+                       </div>
+                    </div>
+                </a>                  
+
+
+            </div>  
+        </div>
+
+        
+
+    </body>      
+</html>
